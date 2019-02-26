@@ -18,8 +18,12 @@ return array
 
 function iLoveTheBeatles(n) {
   var array = []
+  function incrementVariable() {
+    n = n + 1;
+    return n
+  }
   do {
-    console.log("I love the Beatles!")
-    --n;
-  } while (n>=15)
+    array.push("I love the Beatles!")
+  } while (incrementVariable()<15)
+  return array
 }
