@@ -8,6 +8,5 @@ function theBeatlesPlay(musicians, instruments) {
   }
 
   function johnLennonFacts(array) {
-    ${array}.length = n
-return n
+    var n = ${array}.length 
 }
