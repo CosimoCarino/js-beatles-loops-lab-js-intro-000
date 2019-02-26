@@ -9,9 +9,13 @@ function theBeatlesPlay(musicians, instruments) {
 
   function johnLennonFacts(array) {
     var n = array.length
-    while (n>=0) {
+    while (n>0) {
+      array[n-1] = `${array[n-1]}!!!`
       --n
-      array.splice(n,1,`${array[n]}!!!`)
 }
 return array
 }
+
+
+
+
