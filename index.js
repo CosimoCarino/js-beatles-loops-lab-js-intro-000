@@ -15,3 +15,11 @@ function theBeatlesPlay(musicians, instruments) {
 }
 return array
 }
+
+function iLoveTheBeatles(n) {
+  var array = []
+  do {
+    console.log("I love the Beatles!")
+    --n;
+  } while (n>=15)
+}
