@@ -6,5 +6,3 @@ function theBeatlesPlay(musicians, instruments) {
     }
     return beatlesLoops
   }
-
-  
